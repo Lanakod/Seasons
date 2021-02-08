@@ -17,7 +17,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView_summer"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/autumn" />
+        app:srcCompat="@drawable/autumn" />
 
     <ImageView
         android:onClick="springClick"
@@ -29,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_winter"
         app:layout_constraintTop_toBottomOf="@+id/imageView_summer"
-        app:srcCompat="@mipmap/spring" />
+        app:srcCompat="@drawable/spring" />
 
     <ImageView
         android:onClick="summerClick"
@@ -42,7 +42,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView_autumn"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/summer" />
+        app:srcCompat="@drawable/summer" />
 
     <ImageView
         android:onClick="winterClick"
@@ -54,7 +54,7 @@
         app:layout_constraintEnd_toStartOf="@+id/imageView_spring"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView_autumn"
-        app:srcCompat="@mipmap/winter" />
+        app:srcCompat="@drawable/winter" />
 
     <TextView
         android:id="@+id/textView"
